@@ -43,3 +43,4 @@ export const AuthProvider = ({ children }) => {
         </AuthContext.Provider>
     )
 }
+//Compartir estado de autenticacion
