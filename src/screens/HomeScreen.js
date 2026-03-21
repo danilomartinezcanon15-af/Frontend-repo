@@ -58,6 +58,7 @@ const HomeScreen = ({ navigation }) => {
     );
 };
 
+//Pantalla Inicial Despues de Login
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: '#f8f9fa', padding: 20, paddingTop: 60 },
     profileCard: { 
