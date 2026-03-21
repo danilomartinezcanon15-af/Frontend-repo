@@ -23,3 +23,4 @@ const auth = initializeAuth(app, {
 
 //  Exportar
 export { app, auth };
+//FIREBASE CONECTOR
