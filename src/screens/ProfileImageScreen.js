@@ -103,3 +103,5 @@ const styles = StyleSheet.create({
 });
 
 export default ProfileImageScreen;
+
+//Editor de imagen de perfil
