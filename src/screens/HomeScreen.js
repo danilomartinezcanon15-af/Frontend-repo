@@ -51,6 +51,11 @@ const HomeScreen = ({ navigation }) => {
                 </TouchableOpacity>
             </View>
 
+            <TouchableOpacity style={styles.menuItem} onPress={() => navigation.navigate('ChatScreen')}>
+                    <Text style={styles.icon}>💬</Text>
+                    <Text style={styles.menuText}>Chat Global</Text>
+            </TouchableOpacity>
+
             <TouchableOpacity style={styles.logoutBtn} onPress={logout}>
                 <Text style={styles.logoutText}>Cerrar Sesión</Text>
             </TouchableOpacity>

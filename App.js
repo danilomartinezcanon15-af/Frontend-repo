@@ -8,6 +8,7 @@ import LoginScreen from './src/screens/LoginScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import TaskScreen from './src/screens/TaskScreen';
 import ProfileImageScreen from './src/screens/ProfileImageScreen';
+import ChatScreen from './src/screens/ChatScreen';
 
 const Stack = createStackNavigator();
 
@@ -34,6 +35,7 @@ const RootNavigation = () => {
                         <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Inicio - App Tareas' }} />
                         <Stack.Screen name="Tasks" component={TaskScreen} options={{ title: 'Gestión de Tareas' }} />
                         <Stack.Screen name="ProfileImage" component={ProfileImageScreen} options={{ title: 'Cambiar Imagen de Perfil' }} />
+                        <Stack.Screen name="ChatScreen" component={ChatScreen} options={{ title: 'Chat Global' }} />
                     </>
                 )}
             </Stack.Navigator>
